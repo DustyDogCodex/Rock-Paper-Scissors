@@ -2,13 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie-edge">
     <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" href="rps-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section></section>
+    <section class="playerMoves">
+        <button class="Rock">ROCK!</button>
+        <button class="Paper">PAPER!</button>
+        <button class="Scissors">SCISSORS!</button>
+    </section>
 
+    <section>
+        <div>
+            <p class="compChoice"></p>
+            <p class="playerChoice"></p>        
+        </div>
+
+        <div>
+            <h3>Round Result:</h3>
+            <p class="round"></p>
+        </div>
+
+        <div>
+            <h3>SCORES:</h3>
+            <p class="player"></p>
+            <p class="comp"></p> 
+        </div>
+
+        <div class="finalResult"></div>
+
+        <div class="restart"></div>
+    </section>
+    
     <script src="script.js"></script>
 </body>
 </html>
