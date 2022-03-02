@@ -9,5 +9,9 @@ Through this project I learned:
 1) how to write and link JS scripts
 2) how to work with nested loops and conditional operators
 3) creating functions from scratch
+4) working with DOM manipulation and adding interactivity to a website
+5) Making a dynamic website from scratch
+6) improperly defined while loops will lead to infinite loops
+7) Infinite loops are not fun
 
 Good luck and I hope you enjoy this game!
